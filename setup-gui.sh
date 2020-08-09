@@ -1,4 +1,4 @@
 #!/bin/bash
 
-apt-get install ubuntu-desktop
+apt-get install ubuntu-desktop -y
 reboot
