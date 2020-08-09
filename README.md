@@ -1,11 +1,11 @@
 ELK Cluster App
 ===============
 
-This repo is for the testing ELK cluster
+This repo is for setting up and testing of ELK cluster
 
 #### Step 1: Setting Up the Vagrant VM
 ##### Step 1.0
-You may clone this repo to utilize the included Vagrantfile to provision a single VM. Just hit up `vagrant up` to start the provisioning. It will also run some scripts during setup that will..
+You may clone this repo to utilize the included Vagrantfile to provision a single VM. Just hit up `vagrant plugin install vagrant-disksize` followed by `vagrant up` to start the provisioning. It will also run some scripts during setup that will..
 - Install docker runtime
 - Configure DNS to use Google's DNS server.
 - Install Kubeadm
